@@ -1,0 +1,25 @@
+.Nav {
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  display: flex;
+  padding: 20px 0;
+  padding-left: 50px;
+  justify-content: flex-start;
+  list-style: none;
+  background-color: #ddd;
+  backdrop-filter: blur(5px);
+}
+
+.NavSection * {
+  color: #222;
+  padding: 10px 15px;
+  margin: 0 5px;
+  border-radius: 100em;
+  text-decoration: none;
+  transition: all 0.1s;
+}
+
+.NavSection *:hover {
+  background-color: #aaa;
+}

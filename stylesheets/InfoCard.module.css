@@ -1,0 +1,28 @@
+.infoCardBG {
+  position: fixed;
+  z-index: 200;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0003;
+  backdrop-filter: blur(5px);
+  padding: 200px;
+}
+
+.infoCardContainer {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  background-color: #ddd;
+  border-radius: 0.5em;
+  padding: 30px;
+}
+
+.name,
+.description {
+  color: #222;
+}
